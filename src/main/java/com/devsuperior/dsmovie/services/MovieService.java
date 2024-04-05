@@ -64,7 +64,7 @@ public class MovieService {
 		}
 	}
 
-	private void copyDtoToEntity(MovieDTO dto, MovieEntity entity) {
+	void copyDtoToEntity(MovieDTO dto, MovieEntity entity) {
 		entity.setTitle(dto.getTitle());
 		entity.setScore(dto.getScore());
 		entity.setCount(dto.getCount());
